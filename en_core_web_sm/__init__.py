@@ -3,8 +3,7 @@ from spacy.util import load_model_from_init_py, get_model_meta
 
 
 
-# __version__ = get_model_meta(Path(__file__).parent)['version']
-__version__ = get_model_meta(Path(__file__))['version']
+__version__ = get_model_meta(Path(__file__).parent)['version']
 
 
 
